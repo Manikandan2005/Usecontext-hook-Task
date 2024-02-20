@@ -1,0 +1,94 @@
+.card{
+  display: inline-flex;
+  margin-top: 100px;
+  margin-left:100px;
+  border: 2px solid black;
+  background-image: linear-gradient(0deg, rgb(63, 63, 63),rgb(83, 83, 83)),linear-gradient(45deg, rgb(152, 29, 95) 0%, rgb(152, 29, 95) 25%,rgb(167, 52, 79) 25%, rgb(167, 52, 79) 44%,rgb(183, 74, 63) 44%, rgb(183, 74, 63) 48%,rgb(198, 97, 46) 48%, rgb(198, 97, 46) 60%,rgb(214, 119, 30) 60%, rgb(214, 119, 30) 66%,rgb(229, 142, 14) 66%, rgb(229, 142, 14) 100%),linear-gradient(135deg, rgb(152, 29, 95) 0%, rgb(152, 29, 95) 25%,rgb(167, 52, 79) 25%, rgb(167, 52, 79) 44%,rgb(183, 74, 63) 44%, rgb(183, 74, 63) 48%,rgb(198, 97, 46) 48%, rgb(198, 97, 46) 60%,rgb(214, 119, 30) 60%, rgb(214, 119, 30) 66%,rgb(229, 142, 14) 66%, rgb(229, 142, 14) 100%); background-blend-mode:overlay,overlay,normal;
+}
+
+.cards{
+  height: 500px;
+  width: 600px;
+}
+
+.img{
+  height: 350px ;
+  width: 600px ;
+}
+
+.text-container{
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.buttons{
+  margin-left: 150px;
+  margin-bottom:40px;
+}
+
+.cards{
+  color: white;
+}
+
+.cardbody{
+  margin-left: 230px;
+  margin-bottom:130px;
+  color: white;
+}
+
+.cartgroup{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.cartvalue{
+  margin-left: 410px;
+}
+
+.rating{
+  margin-left: 20px;
+}
+
+hr {
+  border: 2px solid black;
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+.total{
+  color:white;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+.totalamount{
+  margin-left: 400px;
+}
+
+.navba{
+  margin-left: 600px;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navcart{
+  height: 30px;
+  width: 80px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white !important;
+  
+}
+
+
+body{
+  background-image: linear-gradient(45deg, rgb(20, 222, 124) 0%, rgb(20, 222, 124) 21%,rgb(25, 190, 119) 21%, rgb(25, 190, 119) 37%,rgb(30, 158, 113) 37%, rgb(30, 158, 113) 46%,rgb(35, 126, 108) 46%, rgb(35, 126, 108) 53%,rgb(39, 94, 103) 53%, rgb(39, 94, 103) 59%,rgb(44, 62, 97) 59%, rgb(44, 62, 97) 77%,rgb(49, 30, 92) 77%, rgb(49, 30, 92) 100%);
+}
