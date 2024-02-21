@@ -31,10 +31,10 @@ function DashBoard() {
     data.map((e,index)=>(
       <div className='card' key={index}>
         <div className='cards'>
-            <img className='img' src={e.url} alt='product'></img>
+            <img className='img' src={e.images[0]} alt='product'></img>
             <div className='design'>
               <div className='text-container'>
-                <span className='fw-bolder' style={{marginLeft:"200px"}}>{e.description}</span><br></br>
+                <span className='fw-bolder' style={{marginLeft:"200px"}}>{e.title}</span><br></br>
                 <span className='fw-bolder '>Details : </span> This is quality product from xyz, You can avail 10% offer <br></br>on HDFC Cards , 7 days exchange policy
               </div>
             </div>
