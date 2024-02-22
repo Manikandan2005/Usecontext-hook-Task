@@ -35,7 +35,7 @@ function DashBoard() {
             <div className='design'>
               <div className='text-container'>
                 <span className='fw-bolder' style={{marginLeft:"200px"}}>{e.title}</span><br></br>
-                <span className='fw-bolder '>Details : </span> This is quality product from xyz, You can avail 10% offer <br></br>on HDFC Cards , 7 days exchange policy
+                <span className='fw-bolder detail'>Details : {e.description}</span>
               </div>
             </div>
             </div>
